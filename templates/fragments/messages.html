@@ -36,10 +36,10 @@
 						<th>Sender</th>
 				</tr>
 
-				<tr th:each="message : ${messages}">
+				<tr th:each="message : ${messages}" class="messageBox">
 					<!--Above is an each statement that will make a new row for each Message given username has-->
-					<td><a th:text="${message.getSubject()}"> </a></td>
-					<td th:text="${message.getFrom()}"> </td>
+					<td><a th:text="${message.getSubject()}" th:href="@{/messages?id=} + ${message.getId()}"> </a></td>
+					<td><a th:text="${message.getFrom()}" th:href="@{/messages?id=} + ${message.getId()}"> </a></td>
 				</tr>
 			</table>
 		</div>
