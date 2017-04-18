@@ -1,0 +1,6 @@
+Dark->light
+#0099ff
+#00b6ff
+#28c2ff
+#70d6ff
+#a5e5ff
