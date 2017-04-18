@@ -19,14 +19,25 @@
 	width:90%;
 }
 
-#messages table tr td a
+#messages a
 {
 	text-decoration:none;
+	color:#000000;
 }
 
 #messages table tr:nth-child(odd)
 {
 	background-color:#86fced;
+}
+
+#messages table tr:nth-child(even)
+{
+	background-color:#ccfcf6;
+}
+
+#messages .messageBox:hover
+{
+	background-color:#72dbcd;
 }
 
 #readerPane
