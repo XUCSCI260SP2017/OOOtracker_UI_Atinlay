@@ -27,12 +27,12 @@
 
 #messages table tr:nth-child(odd)
 {
-	background-color:#86fced;
+	background-color:#D3F2FF;
 }
 
 #messages table tr:nth-child(even)
 {
-	background-color:#ccfcf6;
+	background-color:#BAEBFF;
 }
 
 #messages .messageBox:hover
