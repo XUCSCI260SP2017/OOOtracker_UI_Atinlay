@@ -16,7 +16,7 @@
     text-transform:uppercase;
     font-size:12px;
     font-weight:bold;
-    background:transparent url("bgOFF.gif") repeat-x top left;
+    background-color:#a5e5ff;
     font-family:Helvetica,Arial,Verdana,sans-serif;
     border-bottom:4px solid #336666;
     border-top:1px solid #C0E2D4;
@@ -36,11 +36,11 @@
     color:0000ff;
     padding:12px 20px 0 20px;
     height:24px;
-    background:transparent url("bgDIVIDER.gif") no-repeat top right;
+    background-color:#70d6ff;
 }
 
 #navigation ul#saturday li a:hover{
-    background:transparent url("bgHOVER.gif") no-repeat top right;
+    background-color:#70d6ff;
 }
 
 #navigation ul#saturday li a.current,ul#saturday li a.current:hover{
