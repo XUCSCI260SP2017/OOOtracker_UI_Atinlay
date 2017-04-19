@@ -24,3 +24,4 @@ CREATE TABLE messages(
     created DATETIME DEFAULT CURRENT_TIMESTAMP
     );
 
+
