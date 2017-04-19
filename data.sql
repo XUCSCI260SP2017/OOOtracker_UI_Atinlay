@@ -13,3 +13,4 @@ INSERT INTO messages(id,created,to_id,from_id,subject,body) VALUES (102,'2014-07
 INSERT INTO messages(id,created,to_id,from_id,subject,body) VALUES (110,'2014-07-12 10:00:00','ellisa4@xavier.edu','mcnameel@xavier.edu','Hello Joe','This message is for Joe');
 INSERT INTO messages(id,created,to_id,from_id,subject,body) VALUES (111,'2014-07-12 10:00:00','ellisa4@xavier.edu','mcnameel@xavier.edu','Greetings Joe','This message is for Joe');
 INSERT INTO messages(id,created,to_id,from_id,subject,body) VALUES (112,'2014-07-12 10:00:00','ellisa4@xavier.edu','mcnameel@xavier.edu','Is this secure?','This message is for Joe');
+
