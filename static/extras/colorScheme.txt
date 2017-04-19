@@ -4,3 +4,8 @@ Dark->light
 #28c2ff
 #70d6ff
 #a5e5ff
+
+
+#dark-light messages
+#BAEBFF
+#D3F2FF
