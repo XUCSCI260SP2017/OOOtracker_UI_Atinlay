@@ -23,4 +23,3 @@ logging:
 security:
   basic:
     enabled: false
-
