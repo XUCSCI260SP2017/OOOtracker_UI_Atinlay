@@ -1,6 +1,8 @@
 #topper ul
 {
 	list-style:none;
+	background-color:#cccccc;
+	width:100% auto;
 }
 
 #topper ul li
@@ -12,4 +14,13 @@
 {
 	width:30px;
 	height:20px;
+	opacitY:1;
+}
+
+#messageBody
+{
+	margin-top:40px;
+	margin-left:100px;
+	margin-right:100px;
+	border: solid black 1px;
 }
