@@ -15,7 +15,7 @@
 				<!--Insert quick links here-->
 				<tr>
 					<td><a th:href="@{/logout}">logout</a></td>
-					<td><a th:href="@{/messages}">messages</a></td>
+					<td><a th:href="@{/messages/} + ${#httpServletRequest.remoteUser} + @{/}">messages</a></td>
 					<td><a th:href="@{/requests}">requests</a></td>
 					<td><a th:href="@{/calendar}">calendar</a></td>
 					<td><a th:href="@{/compose}">new message</a></td>
