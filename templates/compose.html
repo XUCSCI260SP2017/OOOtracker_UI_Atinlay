@@ -22,20 +22,20 @@
 	<div id="composeBody">
 		<h3>New Message</h3>
 
-		<form method="post" th:action="@{/compose}">
+		<form method="post" th:action="@{/compose}" th:object="${Message}">
 			<table>
 				<tr>
 					<td>To: </td>
-					<td><input type="text" name="to"></input></td>
+					<td><input type="text" name="to" th:field="*{to}"></input></td>
 				</tr>
 
 				<tr>
 					<td>Subject: </td>
-					<td><input type="text" name="subject"></input></td>
+					<td><input type="text" name="subject" th:field="*{subject}"></input></td>
 				</tr>
 
 				<tr>
-					<td colspan="2"><textarea name="body" value="body" rows="20" cols="35"></textarea></td>
+					<td colspan="2"><textarea name="body" value="body" rows="20" cols="35" th:field="*{body}"></textarea></td>
 				</tr>
 			</table>
 
